@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { PokeData, PokeInter } from "../script/interFacePoke";
 
 interface Props {

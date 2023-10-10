@@ -15,7 +15,7 @@ const HeaderHome: React.FC = () => {
       />
       <div className="flex gap-x-5 text-white text-xl font-semibold ml-auto">
         <a
-          href="/poke"
+          href="/"
           className="relative hover:text-blue-400 before:absolute before:content-['']  before:w-full before:h-1 before:bg-blue-400 before:rounded-md before:-bottom-1 before:-translate-x-full  before:transition-all before:ease-in before:opacity-0 hover:before:translate-x-0 hover:before:opacity-100 "
         >
           Pokemon
@@ -27,10 +27,10 @@ const HeaderHome: React.FC = () => {
           Items
         </a>
         <a
-          href="/pokeball"
+          href="/Hear"
           className="relative hover:text-blue-400 before:content-[''] before:absolute before:w-full before:h-1 before:bg-blue-400 before:rounded-md before:-bottom-1 before:-translate-x-full  before:transition-all before:ease-in before:opacity-0 hover:before:translate-x-0 hover:before:opacity-100 "
         >
-          Poké Ball
+          Hear
         </a>
       </div>
       <img
